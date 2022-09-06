@@ -1,0 +1,91 @@
+2022-01-11 16:01:41,457 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-01-11 16:01:41,480 INFO o.a.j.JMeter: Loading user properties from: /home/martim/ASCN-TP/deploy-k8s/jmeter/apache-jmeter-5.4.1/bin/user.properties
+2022-01-11 16:01:41,481 INFO o.a.j.JMeter: Loading system properties from: /home/martim/ASCN-TP/deploy-k8s/jmeter/apache-jmeter-5.4.1/bin/system.properties
+2022-01-11 16:01:41,487 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-01-11 16:01:41,487 INFO o.a.j.JMeter: Version 5.4.1
+2022-01-11 16:01:41,487 INFO o.a.j.JMeter: java.version=17.0.1
+2022-01-11 16:01:41,487 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: os.name=Linux
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: os.arch=amd64
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: os.version=5.10.90-1-lts
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: java.awt.headless=true
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-01-11 16:01:41,488 INFO o.a.j.JMeter: Available Processors =12
+2022-01-11 16:01:41,500 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-01-11 16:01:41,500 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-01-11 16:01:41,500 INFO o.a.j.JMeter: JMeterHome=/home/martim/ASCN-TP/deploy-k8s/jmeter/apache-jmeter-5.4.1
+2022-01-11 16:01:41,500 INFO o.a.j.JMeter: user.dir  =/home/martim/ASCN-TP/deploy-k8s/jmeter/make_comments
+2022-01-11 16:01:41,500 INFO o.a.j.JMeter: PWD       =/home/martim/ASCN-TP/deploy-k8s/jmeter/make_comments
+2022-01-11 16:01:41,501 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: heliosphan FullName: heliosphan
+2022-01-11 16:01:41,511 INFO o.a.j.s.FileServer: Default base='/home/martim/ASCN-TP/deploy-k8s/jmeter/make_comments'
+2022-01-11 16:01:41,512 INFO o.a.j.s.FileServer: Set new base='/home/martim/ASCN-TP/deploy-k8s/jmeter/make_comments'
+2022-01-11 16:01:41,631 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-01-11 16:01:41,661 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-01-11 16:01:41,664 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-01-11 16:01:41,668 INFO o.a.j.s.SaveService: Loading file: make_comments.jmx
+2022-01-11 16:01:41,700 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-01-11 16:01:41,719 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-11 16:01:41,720 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-11 16:01:41,720 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-11 16:01:41,720 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-11 16:01:41,720 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-01-11 16:01:41,720 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-01-11 16:01:41,950 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-01-11 16:01:41,951 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/martim/ASCN-TP/deploy-k8s/jmeter/apache-jmeter-5.4.1/bin/proxyserver.jks
+2022-01-11 16:01:41,967 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-01-11 16:01:41,972 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-11 16:01:41,973 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-11 16:01:41,973 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-11 16:01:41,978 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-01-11 16:01:41,978 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-01-11 16:01:42,096 INFO o.a.j.JMeter: Running test (1641916902096)
+2022-01-11 16:01:42,114 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2022-01-11 16:01:42,114 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2022-01-11 16:01:42,114 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-11 16:01:42,114 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2022-01-11 16:01:42,124 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-01-11 16:01:42,125 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-01-11 16:01:42,125 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-01-11 16:01:42,125 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-01-11 16:01:42,127 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2022-01-11 16:01:42,131 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-11 16:01:42,131 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-11 16:01:42,146 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = heliosphan
+2022-01-11 16:01:42,151 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-01-11 16:01:42,321 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2022-01-11 16:01:42,519 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2022-01-11 16:01:42,719 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2022-01-11 16:01:42,918 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2022-01-11 16:04:00,072 INFO o.a.j.r.Summariser: summary +    387 in 00:02:18 =    2.8/s Avg:   224 Min:    41 Max:  1470 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:04:32,005 INFO o.a.j.r.Summariser: summary +     39 in 00:00:32 =    1.2/s Avg:   352 Min:    47 Max:  1828 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:04:32,006 INFO o.a.j.r.Summariser: summary =    426 in 00:02:50 =    2.5/s Avg:   236 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:05:04,694 INFO o.a.j.r.Summariser: summary +     85 in 00:00:33 =    2.6/s Avg:   233 Min:    47 Max:  1454 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:05:04,696 INFO o.a.j.r.Summariser: summary =    511 in 00:03:23 =    2.5/s Avg:   235 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:08:00,022 INFO o.a.j.r.Summariser: summary +    491 in 00:02:55 =    2.8/s Avg:   215 Min:    42 Max:  1096 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:08:00,023 INFO o.a.j.r.Summariser: summary =   1002 in 00:06:18 =    2.7/s Avg:   225 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:08:30,543 INFO o.a.j.r.Summariser: summary +     36 in 00:00:31 =    1.2/s Avg:   120 Min:    43 Max:   207 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:08:30,544 INFO o.a.j.r.Summariser: summary =   1038 in 00:06:48 =    2.5/s Avg:   222 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:09:04,478 INFO o.a.j.r.Summariser: summary +     85 in 00:00:34 =    2.5/s Avg:   219 Min:    45 Max:  1111 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:09:04,479 INFO o.a.j.r.Summariser: summary =   1123 in 00:07:22 =    2.5/s Avg:   221 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:10:30,093 INFO o.a.j.r.Summariser: summary +    245 in 00:01:26 =    2.9/s Avg:   209 Min:    42 Max:  1084 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:10:30,095 INFO o.a.j.r.Summariser: summary =   1368 in 00:08:48 =    2.6/s Avg:   219 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:11:01,773 INFO o.a.j.r.Summariser: summary +     78 in 00:00:32 =    2.5/s Avg:   181 Min:    55 Max:  1029 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:11:01,774 INFO o.a.j.r.Summariser: summary =   1446 in 00:09:20 =    2.6/s Avg:   217 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:11:34,345 INFO o.a.j.r.Summariser: summary +     85 in 00:00:33 =    2.6/s Avg:   184 Min:    41 Max:  1004 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:11:34,346 INFO o.a.j.r.Summariser: summary =   1531 in 00:09:52 =    2.6/s Avg:   215 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:12:30,000 INFO o.a.j.r.Summariser: summary +    166 in 00:00:56 =    3.0/s Avg:   179 Min:    51 Max:   663 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2022-01-11 16:12:30,001 INFO o.a.j.r.Summariser: summary =   1697 in 00:10:48 =    2.6/s Avg:   212 Min:    41 Max:  1828 Err:     0 (0.00%)
+2022-01-11 16:12:39,199 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2022-01-11 16:12:39,199 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2022-01-11 16:12:54,866 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2022-01-11 16:12:54,866 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2022-01-11 16:12:59,812 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2022-01-11 16:12:59,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2022-01-11 16:13:00,035 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2022-01-11 16:13:00,035 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2022-01-11 16:13:00,266 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2022-01-11 16:13:00,267 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2022-01-11 16:13:00,267 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-11 16:13:00,269 INFO o.a.j.r.Summariser: summary +      3 in 00:00:30 =    0.1/s Avg:   117 Min:    89 Max:   168 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+2022-01-11 16:13:00,270 INFO o.a.j.r.Summariser: summary =   1700 in 00:11:18 =    2.5/s Avg:   212 Min:    41 Max:  1828 Err:     0 (0.00%)
